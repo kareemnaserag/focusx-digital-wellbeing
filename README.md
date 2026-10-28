@@ -26,7 +26,7 @@ FOCUSX is an Arabic-first Flutter project for digital wellbeing, focus sessions,
 | iOS live usage/remaining time | Not exposed through the current Flutter contract; no sample values are presented as actual usage |
 | Timer lifecycle/persistence, detox schedules, cloud sync | Not implemented |
 | Installable Android/iOS builds | Not generated |
-| Public web preview | Not built or deployed; native controls cannot be previewed as working web features |
+| Public web preview | Static Arabic RTL interface preview is published with GitHub Pages from `docs/`; its timer is local to the browser and native usage/blocking features are unavailable on the web |
 
 Sample analytics shown elsewhere in the UI remain prototype content and must not be interpreted as device usage.
 
@@ -106,7 +106,7 @@ These commands have **not** been run here because Flutter/Dart, generated runner
 
 ## Screenshots and preview
 
-No screenshots or web preview are included. FOCUSX is a mobile project; a web build would be a separate preview of shared Flutter UI, not an installable mobile app, and cannot perform the native Screen Time or Android usage integrations.
+The public web preview is available at https://kareemnaserag.github.io/focusx-digital-wellbeing/. It is a static showcase of the FOCUSX interface, not a Flutter web build or installable mobile app. Usage figures are sample content; native Screen Time and Android usage integrations are not available on the website.
 
 ## Contributing
 
